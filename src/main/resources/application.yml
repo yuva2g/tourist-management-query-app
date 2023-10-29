@@ -2,13 +2,13 @@ spring:
   data:
     mongodb:
       database: testDB
-      uri: ${MONGODB_URI}
+      uri: mongodb://yuva-fse-cosmos-account:ZSDGxpSSZ1IMP0Xu6cZo4npjHj4JCHzioxIkBRhCXOkSmr8p4rZMF7p4t1O13NTImegscneayLsmACDbeXQKwg==@yuva-fse-cosmos-account.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@yuva-fse-cosmos-account@
   application:
     name: tourist-management-query-app
   jms:
     servicebus:
       connection-string: Endpoint=sb://yuva-fse-service-bus-namespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=DRhwlHiX2uTqIx/PlJBcTxvr9WmaKv+2j+ASbCy44HE=
-      pricing-tier: basic
+      pricing-tier: standard
       receive-timeout: 50000
 logging:
   level:
